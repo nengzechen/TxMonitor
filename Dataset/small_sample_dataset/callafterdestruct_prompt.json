@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "Analyze the transaction opcode sequence for any signs of the [SELFDESTRUCT] opcode being followed by subsequent [CALL] operations. Check if a contract is being called after it has been destructed, which could indicate an attempt to exploit the contract state after it has been removed. Pay special attention to scenarios where the contract’s logic may be invoked post-destruction, potentially leading to security risks.",
+        "input": "[START] [CALL] 0x2c9A3bd6B22446163143171Fd0Fde0051ceE5ca4 0xb43F4B2E1a57bBC225CD26f5BD296c44840D46CD a9059cbb 22808 address 0x0000000000000000000000008038aa443b4024332092c311f2a99abb3cff6c82 uint256 0x0000000000000000000000000000000000000000000000000000000000000000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Examine the transaction opcode sequence for instances where the [SELFDESTRUCT] opcode is used, followed by subsequent [CALL] operations. Look for any attempts to interact with a contract after its destruction, which could suggest an effort to exploit residual state or vulnerabilities. Ensure that no function calls are made after the contract has been terminated.",
+        "input": "[START] [CALL] 0x67acDd2F93bEc647e91debd164259c06d4a45887 0xb43F4B2E1a57bBC225CD26f5BD296c44840D46CD a9059cbb 23192 address 0x000000000000000000000000ea66cd800b2d1acb1bdb183f7bb120efb60cb83b uint256 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Inspect the transaction opcode sequence for occurrences of the [SELFDESTRUCT] opcode followed by [CALL] operations. Investigate whether any interactions are attempted with a contract after it has been destroyed, as this may indicate an attempt to exploit vulnerabilities in the contract's residual state. Verify that no calls are made to the contract after its destruction.",
+        "input": "[START] [CALL] 0x67acDd2F93bEc647e91debd164259c06d4a45887 0xb43F4B2E1a57bBC225CD26f5BD296c44840D46CD a9059cbb 23192 address 0x00000000000000000000000067acdd2f93bec647e91debd164259c06d4a45887 uint256 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Review the transaction opcode sequence for signs of the [SELFDESTRUCT] opcode being executed, followed by [CALL] instructions. Check if any interactions occur with a contract after its destruction, as this could signal an attempt to exploit lingering vulnerabilities in the contract’s state. Ensure no further calls are made once the contract is destructed.",
+        "input": "[START] [CALL] 0x05F9155b72E5C99E355eC5D4c6B75331f75BFdb9 0xed606fcFD1e57a8e418eA709b0EEf3f4F23B500A a9059cbb 23320 address 0x00000000000000000000000025a1afe05b2068824af2aa52df1482b0df9869b4 uint256 0x00000000000000000000000000000000000000000000043c33c46b0de8520000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "As an advanced intelligent assistant, your task is to analyze the given opcode sequence of an Ethereum transaction. Your should determine whether the transaction is normal or exhibits signs of anomalies. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal opcode.",
+        "input": "[START] [CALL] 0xcAf5e643eb2ca417b4AAc10861D94d9cfB7117e4 0x8Cd448C5FDBf2C79F640a5326a6f86FbCE03d3bB 8f99d31b 21272 300000000000000000 [END]",
+        "output": "1"
+    }
+]

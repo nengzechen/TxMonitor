@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "You are now a smart contract audit expert, and you need to analyze the opcode sequence generated during the execution of Ethereum transactions. You need to determine whether the transaction is abnormal according to this sequence. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal transaction.",
+        "input": "[START] [CALL] 0x1EC564E32E594d8DCd951F3586DDfA48eD935e17 0x6DD2f1446e218a800B6c1741107Fff3BD8b2E6Fa 21000 22756865417649956565 [END]",
+        "output": "0"
+    },
+    {
+        "instruction": "You are now a smart contract audit expert, and you need to analyze the opcode sequence generated during the execution of Ethereum transactions. You need to determine whether the transaction is abnormal according to this sequence. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal transaction.",
+        "input": "[START] [CALL] 0x8DF73b3324Cc97F6e3501F0F343e954CEFb0E793 0x7eD1E469fCb3EE19C0366D829e291451bE638E59 21000 142494378999979000 [END]",
+        "output": "0"
+    },
+    {
+        "instruction": "You are now a smart contract audit expert, and you need to analyze the opcode sequence generated during the execution of Ethereum transactions. You need to determine whether the transaction is abnormal according to this sequence. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal transaction.",
+        "input": "[START] [CALL] 0x49D851A6EbB50e902ECd3CBF0fF121D38254BF00 0x9D073311e6245A0f7D2Ceb3147Aee6011aB0Ef2a 21000 480000000000000 [END]",
+        "output": "0"
+    },
+    {
+        "instruction": "You are now a smart contract audit expert, and you need to analyze the opcode sequence generated during the execution of Ethereum transactions. You need to determine whether the transaction is abnormal according to this sequence. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal transaction.",
+        "input": "[START] [CALL] 0x5CAc3EDcA2eA763a713Cb2a9562E1efC928d40f3 0x842a9A1d11f418a3afCDa2d839aae682eF0297A0 21000 427500000000000 [END]",
+        "output": "0"
+    },
+    {
+        "instruction": "You are now a smart contract audit expert, and you need to analyze the opcode sequence generated during the execution of Ethereum transactions. You need to determine whether the transaction is abnormal according to this sequence. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal transaction.",
+        "input": "[START] [CALL] 0x1BC6ee3D40Ce07c29db65C6cF4269e1089D16E07 0x07Ca04Dea1b05ef526F69F82661aa2bc911c7ab2 21000 20000000000000000000 [END]",
+        "output": "0"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "Analyze the transaction opcode sequence and check for any misuse of [DELEGATECALL]. Specifically, look for instances where [DELEGATECALL] is invoked without proper validation or control, potentially allowing an external contract to execute with the privileges of the calling contract. Focus on whether the execution could alter the contract’s [STATE] or execute unintended logic without sufficient access control mechanisms.",
+        "input": "[START] [CALL] 0x5E2073E67dC5e1132D2eb45afFdd7944614C7959 0x7a7D08bCB2faF27414e86EcF9a0351D928054b6b 1a695230 23056 100000000000000000 address 0x0000000000000000000000005e2073e67dc5e1132d2eb45affdd7944614c7959 [END] [START] [STATE] read 0xde0b6b3a7640000 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Examine the transaction opcode sequence for potential misuse of [DELEGATECALL]. Specifically, check if [DELEGATECALL] is used without adequate validation, which could allow an external contract to execute code with the calling contract’s privileges. Pay attention to whether this could modify the contract’s [STATE] or trigger unintended behaviors without proper access controls.",
+        "input": "[START] [CALL] 0x5E2073E67dC5e1132D2eb45afFdd7944614C7959 0x7a7D08bCB2faF27414e86EcF9a0351D928054b6b 1a695230 23056 100 address 0x0000000000000000000000005e2073e67dc5e1132d2eb45affdd7944614c7959 [END] [START] [STATE] read 0xde0b6b3a7640000 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Review the transaction opcode sequence for signs of unsafe [DELEGATECALL] usage. Focus on instances where [DELEGATECALL] is invoked without sufficient validation, potentially allowing external contracts to execute with the privileges of the calling contract. Assess whether this could lead to unauthorized [STATE] changes or unexpected code execution due to missing access control checks.",
+        "input": "[START] [CALL] 0x5E2073E67dC5e1132D2eb45afFdd7944614C7959 0x7a7D08bCB2faF27414e86EcF9a0351D928054b6b 1a695230 23056 100000000000000000 address 0x0000000000000000000000005e2073e67dc5e1132d2eb45affdd7944614c7959 [END] [START] [STATE] read 0xde0b6b3a7640000 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "Investigate the transaction opcode sequence for potential risks related to [DELEGATECALL]. Look for cases where [DELEGATECALL] is used without proper safeguards, potentially enabling external contracts to execute actions with the privileges of the caller. Evaluate if this could result in unintended [STATE] modifications or unauthorized execution due to inadequate access control.",
+        "input": "[START] [CALL] 0x5E2073E67dC5e1132D2eb45afFdd7944614C7959 0x7a7D08bCB2faF27414e86EcF9a0351D928054b6b 1a695230 23056 100000000000000000 address 0x0000000000000000000000005e2073e67dc5e1132d2eb45affdd7944614c7959 [END] [START] [STATE] read 0xde0b6b3a7640000 0x0000000000000000000000000000000000000000000000000de0b6b3a7640000 [END]",
+        "output": "1"
+    },
+    {
+        "instruction": "As an advanced intelligent assistant, your task is to analyze the given opcode sequence of an Ethereum transaction. Your should determine whether the transaction is normal or exhibits signs of anomalies. While conducting your analysis, you are only allowed to output '0' or '1' to differentiate between normal and abnormal opcode.",
+        "input": "[START] [CALL] 0xACe4E261d21ea8Ed1784E5F730878e0FD90e145D 0x7a7D08bCB2faF27414e86EcF9a0351D928054b6b 1a695230 33762 100000000000 address 0x000000000000000000000000ace4e261d21ea8ed1784e5f730878e0fd90e145d [END] [START] [STATE] read 0x1 0x0000000000000000000000000000000000000000000000000000000000000001 [END] [START] [STATE] read 0xa26f5ce1c7e71eb670fa609d2e0e0f2aa57c528b 0x000000000000000000000000a26f5ce1c7e71eb670fa609d2e0e0f2aa57c528b [END] [START] [STATE] read 0xace4e261d21ea8ed1784e5f730878e0fd90e145d 0x000000000000000000000000ace4e261d21ea8ed1784e5f730878e0fd90e145d [END]",
+        "output": "1"
+    }
+]
