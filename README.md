@@ -1,4 +1,4 @@
-# Txmonitor
+# TxMonitor
 a general and efficient runtime analysis framework that utilizes a fine-tuned LLM for real-time transaction detection in smart contracts
 ## File directory description
 ### Dataset
