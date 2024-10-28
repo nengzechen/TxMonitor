@@ -13,15 +13,4 @@ We use LLaMA-Factory to complete the fine tuning task, please refer to use [LLaM
 ### ML-methods
 Four traditional classification models are used to compare TxMonitor
 ### Token
-- build_ITR_tree.py
-- build_WordEmbedding.py
-- build_vocabulary.py
-- data_process.py
-- input2token.py
-- load_data.py
-- token_split
-    - 4byte.json
-    - main.py
-    - utilities.py
-- tokenize_text.py
 Tokenized code for the obtained execution flow
