@@ -1,0 +1,7 @@
+adapter_name_or_path: C:\zk\txmonitor\LLaMA-Factory\saves\Meta-Llama-3.1-8B\lora\sft
+finetuning_type: lora
+model_name_or_path: C:\zk\LLM_Library\Meta-Llama-3.1-8B
+template: llama3
+#use_dora: true
+# infer_backend: vllm
+# vllm_enforce_eager: true
