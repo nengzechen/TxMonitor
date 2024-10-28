@@ -14,9 +14,9 @@
 - mongodb->geth->transaction 记录交易基础信息与trace信息
 
 ## 要获取信息如下 
-- call trace: from\to\function hash\gas\value\input\output 在trace中，需要再分析
-- state trace:read/write\key\value 在trace中
-- log trace:contract hash\event hash\log data 已获取
+- call trace: from\to\function hash\gas\value\input\output 
+- state trace:read/write\key\value 
+- log trace:contract hash\event hash\log data 
 
 ## 注意事项
 - 当前mongodb端口为27018
